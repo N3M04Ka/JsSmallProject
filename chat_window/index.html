@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="side_bar_top">
+            <div class="input_holder">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input type="text" placeholder="Find someone...">
+            </div>
+            <button><i class="fa-regular fa-comment"></i>Chats</button>
+            <button><i class="fa-solid fa-mask"></i>Secret Chats</button>
+            <button><i class="fa-solid fa-user-group"></i>Groups</button>
+            <button><i class="fa-solid fa-gear"></i>Setting</button>
+            <button><i class="fa-regular fa-heart"></i>Favorite</button>
+            <button><i class="fa-solid fa-wallet"></i>Wallet</button>
+        </div>
+        <div class="side_bar_bottom">
+            <button><i class="fa-solid fa-arrow-right-from-bracket"></i>Log out</button>
+            <button><i class="fa-regular fa-sun"></i>Ligh Mode</button>
+        </div>
+    </div>
+    <div class="chat">
+        <div class="chat_message_window">
+            
+        </div>
+        <div class="chat_tools">
+            <button id="change_user" title="change_user"><i class="fa-solid fa-paperclip"></i></button>
+            <input id="message_input" type="text" placeholder="...">
+            <button><i class="fa-solid fa-microphone"></i></button>
+            <button id="sendBtn"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+    </div>
+    <div class="frends_list">
+        
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>

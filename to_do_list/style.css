@@ -1,0 +1,54 @@
+.input_panel,.tasks_panel{
+    background-color: rgb(255, 255, 255);
+    width: 340px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px  10px rgb(94, 93, 93);
+}
+body{
+    background-color: rgb(178, 99, 251);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+#myinput{
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid rgb(198, 196, 196);
+}
+#mybtn{
+    background-color: rgb(151, 56, 240);
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 9px 20px;
+    border-radius: 8px;
+    margin-left: 15px;
+}
+#myinput:focus{
+    outline: none;
+}
+.tast_delete_btn{
+    font-size: 27px;
+    padding: 0 18px;
+    color: white;
+    background-color: rgb(151, 56, 240);
+    border: none;
+    border-radius: 10px;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.task_text{
+    font-size: 20px;
+    line-height: 15px;
+    font-family: Open Sans,sans-serif;
+    font-weight: 500;
+}

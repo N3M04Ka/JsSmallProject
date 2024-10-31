@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    background-attachment: fixed;
+}
+#clock_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://www.desktopbackground.org/download/1920x1080/2012/09/29/460224_streets-rain-urban-new-york-city-bokeh-city-night_2048x1363_h.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    padding: 20px;
+    font-weight: bold;
+    backdrop-filter: blur(5px);
+}

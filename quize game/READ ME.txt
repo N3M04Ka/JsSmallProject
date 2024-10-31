@@ -1,0 +1,1 @@
+You have to run the page from local server extension on vs code because of ES6 modules

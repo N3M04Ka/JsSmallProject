@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Tic Tac Toe</h2>
+        <div class="table">
+            <div class="cell" id='0' onclick="playGame(this)"></div>
+            <div class="cell" id='1' onclick="playGame(this)"></div>
+            <div class="cell" id='2' onclick="playGame(this)"></div>
+            <div class="cell" id='3' onclick="playGame(this)"></div>
+            <div class="cell" id='4' onclick="playGame(this)"></div>
+            <div class="cell" id='5' onclick="playGame(this)"></div>
+            <div class="cell" id='6' onclick="playGame(this)"></div>
+            <div class="cell" id='7' onclick="playGame(this)"></div>
+            <div class="cell" id='8' onclick="playGame(this)"></div>
+            <div class="line"></div>
+        </div>
+        <div class="control_panel">
+            <button id="restart_btn" onclick="restartGame()">Restart</button>
+            <button id="change_game_type_btn">PvP</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
